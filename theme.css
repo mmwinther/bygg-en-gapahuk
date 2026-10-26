@@ -1,0 +1,503 @@
+/* @theme gapahuk */
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('fonts/cormorant-garamond-300.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url('fonts/cormorant-garamond-300-italic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('fonts/eb-garamond-400.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'EB Garamond';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('fonts/eb-garamond-400-italic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('fonts/eb-garamond-500.woff2') format('woff2');
+}
+
+:root {
+  --paper: #f4f1e9;
+  --ink: #1c1b18;
+  --muted: #6f695d;
+  --line: #d8d2c4;
+  --night: #10120e;
+}
+
+section {
+  width: 1280px;
+  height: 720px;
+  padding: 64px 84px 58px;
+  background-color: var(--paper);
+  color: var(--ink);
+  font-family: 'EB Garamond', 'Iowan Old Style', Palatino, Georgia, serif;
+  font-size: 30px;
+  line-height: 1.45;
+  letter-spacing: 0.004em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+section::after {
+  font-family: 'EB Garamond', Georgia, serif;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  color: #9a9385;
+  bottom: 24px;
+  right: 40px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Cormorant Garamond', 'EB Garamond', Georgia, serif;
+  font-weight: 300;
+  color: inherit;
+}
+
+h1 {
+  font-size: 88px;
+  line-height: 0.96;
+  letter-spacing: -0.018em;
+  margin: 0 0 26px;
+}
+
+h2 {
+  font-size: 56px;
+  line-height: 1;
+  letter-spacing: -0.012em;
+  margin: 0 0 20px;
+}
+
+h3 {
+  font-size: 30px;
+  line-height: 1.15;
+  margin: 0;
+}
+
+p {
+  margin: 0 0 0.55em;
+}
+
+strong {
+  font-weight: 500;
+}
+
+em {
+  font-style: italic;
+}
+
+.kicker {
+  font-family: 'EB Garamond', Georgia, serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 30px;
+}
+
+.lede {
+  font-size: 38px;
+  line-height: 1.25;
+  color: var(--muted);
+  max-width: 850px;
+  margin: 0;
+}
+
+.punch {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 64px;
+  font-style: italic;
+  line-height: 1;
+  color: var(--ink);
+  margin: 6px 0 0;
+}
+
+.small {
+  font-size: 19px;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  margin: 42px 0 0;
+}
+
+/* ---------- Full-bleed photographs ---------- */
+
+section.photo,
+section.cover {
+  position: relative;
+  background-color: var(--night);
+  color: #f8f5ed;
+  justify-content: flex-end;
+}
+
+section.photo > :not([data-marpit-advanced-background='background']),
+section.cover > :not([data-marpit-advanced-background='background']) {
+  position: relative;
+  z-index: 2;
+}
+
+section.photo[data-marpit-advanced-background='background'] figure,
+section.cover[data-marpit-advanced-background='background'] figure {
+  position: relative;
+}
+
+section.photo[data-marpit-advanced-background='background'] figure::before,
+section.cover[data-marpit-advanced-background='background'] figure::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+}
+
+section.photo[data-marpit-advanced-background='background'] figure::before {
+  background:
+    linear-gradient(
+      90deg,
+      rgba(8, 10, 8, 0.58) 0%,
+      rgba(8, 10, 8, 0.16) 44%,
+      rgba(8, 10, 8, 0) 70%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(8, 10, 8, 0.26) 0%,
+      rgba(8, 10, 8, 0) 32%,
+      rgba(8, 10, 8, 0.3) 56%,
+      rgba(8, 10, 8, 0.88) 100%
+    );
+}
+
+section.photo.center[data-marpit-advanced-background='background'] figure::before {
+  background: radial-gradient(
+    ellipse at center,
+    rgba(8, 10, 8, 0.34) 0%,
+    rgba(8, 10, 8, 0.56) 100%
+  );
+}
+
+section.photo.right[data-marpit-advanced-background='background'] figure::before {
+  background:
+    linear-gradient(
+      270deg,
+      rgba(8, 10, 8, 0.9) 0%,
+      rgba(8, 10, 8, 0.56) 44%,
+      rgba(8, 10, 8, 0) 76%
+    ),
+    linear-gradient(
+      180deg,
+      rgba(8, 10, 8, 0.2) 0%,
+      rgba(8, 10, 8, 0) 40%,
+      rgba(8, 10, 8, 0.35) 100%
+    );
+}
+
+section.photo.light[data-marpit-advanced-background='background'] figure::before {
+  background: linear-gradient(
+    90deg,
+    rgba(244, 241, 233, 0.94) 0%,
+    rgba(244, 241, 233, 0.62) 46%,
+    rgba(244, 241, 233, 0) 82%
+  );
+}
+
+section.cover[data-marpit-advanced-background='background'] figure::before {
+  background: linear-gradient(
+    90deg,
+    rgba(244, 241, 233, 0.94) 0%,
+    rgba(244, 241, 233, 0.58) 42%,
+    rgba(244, 241, 233, 0) 76%
+  );
+}
+
+section.photo h1 {
+  font-size: 94px;
+  margin-bottom: 16px;
+}
+
+section.photo p {
+  font-size: 30px;
+  margin-bottom: 0.25em;
+}
+
+section.photo .kicker {
+  color: rgba(248, 245, 237, 0.9);
+}
+
+section.photo .lede {
+  color: rgba(248, 245, 237, 0.88);
+  font-size: 38px;
+}
+
+section.photo:not(.light) h1,
+section.photo:not(.light) p {
+  text-shadow: 0 2px 22px rgba(0, 0, 0, 0.4);
+}
+
+section.photo::after {
+  color: rgba(248, 245, 237, 0.72);
+  z-index: 3;
+}
+
+section.photo.center {
+  justify-content: center;
+  text-align: center;
+}
+
+section.photo.center h1 {
+  font-size: 132px;
+  margin: 0;
+}
+
+section.photo.right {
+  padding-left: 54%;
+  justify-content: center;
+}
+
+section.photo.right h1 {
+  font-size: 78px;
+}
+
+section.photo.light {
+  color: var(--ink);
+  justify-content: center;
+}
+
+section.photo.light .kicker {
+  color: var(--muted);
+}
+
+section.photo.light::after {
+  color: rgba(28, 27, 24, 0.5);
+}
+
+section.photo.light h1 {
+  font-size: 78px;
+  max-width: 900px;
+  margin: 0;
+}
+
+/* ---------- Cover ---------- */
+
+section.cover {
+  color: var(--ink);
+  justify-content: center;
+}
+
+section.cover .kicker {
+  color: #5b564b;
+}
+
+section.cover h1 {
+  font-size: 152px;
+  line-height: 0.9;
+  letter-spacing: -0.026em;
+  margin: 0 0 22px;
+}
+
+section.cover .lede {
+  font-size: 40px;
+  color: #454138;
+  max-width: 620px;
+}
+
+/* ---------- Paper statements ---------- */
+
+section.statement {
+  justify-content: center;
+}
+
+section.statement h1 {
+  font-size: 84px;
+  max-width: 1010px;
+  margin-bottom: 20px;
+}
+
+section.statement .lede {
+  font-size: 42px;
+}
+
+section.statement.center {
+  text-align: center;
+}
+
+section.statement.center h1 {
+  max-width: none;
+}
+
+section.statement.center .kicker {
+  text-align: center;
+}
+
+section.question h1 {
+  font-size: 124px;
+  letter-spacing: -0.028em;
+  margin-bottom: 0;
+}
+
+.end {
+  font-size: 26px;
+  letter-spacing: 0.12em;
+  color: var(--muted);
+  margin: 58px 0 0;
+}
+
+/* ---------- Benefits list ---------- */
+
+section.list {
+  justify-content: center;
+}
+
+section.list h1 {
+  font-size: 58px;
+  margin-bottom: 30px;
+}
+
+section.list ol {
+  list-style: none;
+  counter-reset: benefit;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0;
+  padding: 0;
+}
+
+section.list li {
+  counter-increment: benefit;
+  position: relative;
+  padding: 15px 0 14px 102px;
+  border-top: 1px solid var(--line);
+  font-size: 29px;
+  line-height: 1.3;
+}
+
+section.list li:last-child {
+  border-bottom: 1px solid var(--line);
+}
+
+section.list li::before {
+  content: '0' counter(benefit);
+  position: absolute;
+  left: 0;
+  top: 22px;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 21px;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+}
+
+/* ---------- Recipe ---------- */
+
+section.steps {
+  justify-content: center;
+}
+
+section.steps h1 {
+  font-size: 64px;
+  margin-bottom: 38px;
+}
+
+section.steps .steps {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+section.steps .step {
+  border-top: 1px solid var(--line);
+  padding-top: 16px;
+}
+
+section.steps .num {
+  display: block;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  margin-bottom: 30px;
+}
+
+section.steps .step h3 {
+  font-size: 35px;
+  line-height: 1.05;
+  margin: 0 0 12px;
+}
+
+section.steps .step p {
+  font-size: 13px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0;
+}
+
+section.steps .after {
+  font-size: 24px;
+  font-style: italic;
+  color: var(--muted);
+  margin-top: 46px;
+}
+
+/* ---------- Credits ---------- */
+
+section.credits {
+  justify-content: center;
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+section.credits h1 {
+  font-size: 42px;
+  margin-bottom: 22px;
+}
+
+.credits-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 54px;
+  row-gap: 4px;
+  max-width: 1080px;
+}
+
+.credits-grid p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.credits-grid strong {
+  color: var(--ink);
+  font-weight: 500;
+}
+
+.colophon {
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--muted);
+  margin-top: 22px;
+  max-width: 980px;
+}

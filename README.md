@@ -2,7 +2,7 @@
 
 En minimalistisk presentasjon om MVP: hvorfor det er bedre å bygge en gapahuk enn et slott når noen står ute i regnet.
 
-Skrevet i ren Markdown, med [Marp](https://marp.app) som verktøy. Serif-typografi, store bilder, lite tekst.
+Skrevet i Markdown, med [Marp](https://marp.app).
 
 ## Se presentasjonen
 
@@ -51,17 +51,17 @@ Varianter: `![bg right](...)`, og klassene `photo`, `photo center`, `photo right
 
 Alle bildene er hentet fra Wikimedia Commons og brukt under sine respektive lisenser.
 
-| Bruk | Bilde | Fotograf | Lisens |
-| --- | --- | --- | --- |
-| Forside | [Misty Mountains](https://commons.wikimedia.org/wiki/File:Misty_Mountains_(Unsplash_zR40wedS1aQ).jpg) | James Bloedel | CC0 |
-| Regn | [Rain on a puddle in Tuntorp 1](https://commons.wikimedia.org/wiki/File:Rain_on_a_puddle_in_Tuntorp_1.jpg) | W.carter | CC BY-SA 4.0 |
-| Person | [Beyond the fog](https://commons.wikimedia.org/wiki/File:Beyond_the_fog_(Unsplash).jpg) | Jorge Fernández | CC0 |
-| Slott | [Palace Neuschwanstein](https://commons.wikimedia.org/wiki/File:Palace_Neuschwanstein_(Unsplash).jpg) | Mathias Konrath | CC0 |
-| Gapahuk | [Biscuit Brook Lean-To](https://commons.wikimedia.org/wiki/File:Biscuit_Brook_Lean-To,_Frost_Valley,_NY.jpg) | Daniel Case | CC BY-SA 4.0 |
-| Test | [Aftermath of an ice rain in the forest](https://commons.wikimedia.org/wiki/File:Aftermath_of_an_ice_rain_in_the_forest,_Vienna,_Austria.jpg) | Simon | CC BY 2.0 |
-| Vegg | [Biscuit Brook Lean-To 2](https://commons.wikimedia.org/wiki/File:Biscuit_Brook_Lean-To,_Frost_Valley,_NY_2.jpg) | Daniel Case | CC BY-SA 4.0 |
-| Tåke | [Burg Hohenzollern](https://commons.wikimedia.org/wiki/File:Burg_Hohenzollern-101611.jpg) | Rainer Halama | CC BY-SA 4.0 |
-| Bål | [Bonfire and Sun](https://commons.wikimedia.org/wiki/File:Bonfire_and_Sun_(54056503423).jpg) | Egor Plenkin | CC BY 2.0 |
+| Bruk    | Bilde                                                                                                                                         | Fotograf        | Lisens       |
+| ------- | --------------------------------------------------------------------------------------------------------------------------------------------- | --------------- | ------------ |
+| Forside | [Misty Mountains](<https://commons.wikimedia.org/wiki/File:Misty_Mountains_(Unsplash_zR40wedS1aQ).jpg>)                                       | James Bloedel   | CC0          |
+| Regn    | [Rain on a puddle in Tuntorp 1](https://commons.wikimedia.org/wiki/File:Rain_on_a_puddle_in_Tuntorp_1.jpg)                                    | W.carter        | CC BY-SA 4.0 |
+| Person  | [Beyond the fog](<https://commons.wikimedia.org/wiki/File:Beyond_the_fog_(Unsplash).jpg>)                                                     | Jorge Fernández | CC0          |
+| Slott   | [Palace Neuschwanstein](<https://commons.wikimedia.org/wiki/File:Palace_Neuschwanstein_(Unsplash).jpg>)                                       | Mathias Konrath | CC0          |
+| Gapahuk | [Biscuit Brook Lean-To](https://commons.wikimedia.org/wiki/File:Biscuit_Brook_Lean-To,_Frost_Valley,_NY.jpg)                                  | Daniel Case     | CC BY-SA 4.0 |
+| Test    | [Aftermath of an ice rain in the forest](https://commons.wikimedia.org/wiki/File:Aftermath_of_an_ice_rain_in_the_forest,_Vienna,_Austria.jpg) | Simon           | CC BY 2.0    |
+| Vegg    | [Biscuit Brook Lean-To 2](https://commons.wikimedia.org/wiki/File:Biscuit_Brook_Lean-To,_Frost_Valley,_NY_2.jpg)                              | Daniel Case     | CC BY-SA 4.0 |
+| Tåke    | [Burg Hohenzollern](https://commons.wikimedia.org/wiki/File:Burg_Hohenzollern-101611.jpg)                                                     | Rainer Halama   | CC BY-SA 4.0 |
+| Bål     | [Bonfire and Sun](<https://commons.wikimedia.org/wiki/File:Bonfire_and_Sun_(54056503423).jpg>)                                                | Egor Plenkin    | CC BY 2.0    |
 
 Bildene er beskåret til 16:9, men ellers ikke endret.
 

@@ -9,13 +9,12 @@ description: En presentasjon om MVP — å bygge minst mulig og få det til å h
 
 <!-- _class: cover -->
 <!-- _paginate: false -->
+
 ![bg](images/cover.jpg)
 
-<p class="kicker">MVP</p>
+# Bygg en gapahuk
 
-# Gapahuken
-
-<p class="lede">Bygg en gapahuk, ikke et slott.</p>
+<p class="lede">En historie om behov</p>
 
 <!--
 Velkommen. I dag skal vi snakke om å bygge minst mulig — og likevel løse problemet skikkelig. Vi begynner i skogen, i regnet.
@@ -24,6 +23,7 @@ Velkommen. I dag skal vi snakke om å bygge minst mulig — og likevel løse pro
 ---
 
 <!-- _class: photo center -->
+
 ![bg](images/rain.jpg)
 
 <p class="kicker">Behovet</p>
@@ -31,22 +31,26 @@ Velkommen. I dag skal vi snakke om å bygge minst mulig — og likevel løse pro
 # Det regner.
 
 <!--
-La bildet virke et par sekunder. Det er kaldt, vått og mørkt. Ingen app, ingen strategi — bare vær.
+La bildet virke et par sekunder. Det er kaldt, vått og mørkt.
 -->
 
 ---
 
 <!-- _class: photo right -->
+
 ![bg](images/person.jpg)
 
 <p class="kicker">Behovet</p>
 
-# Noen står ute<br>i regnet.
+# Brukeren står ute<br>i regnet.
 
 <p class="lede">Uten tak over hodet.</p>
 
 <!--
-Dette er brukeren. Ikke en persona i et dokument, men et menneske som er våt nå. Behovet er ikke abstrakt.
+- Dette er brukeren.
+- Det første og viktigste oppgave vi har
+    - forstå brukeren
+    - hva de skal å oppnå.
 -->
 
 ---
@@ -59,7 +63,9 @@ Dette er brukeren. Ikke en persona i et dokument, men et menneske som er våt n�
 <p class="lede">I natt. Ikke neste år.</p>
 
 <!--
-Legg merke til hvor enkelt behovet er. Det er ikke «en bedre opplevelse av friluftsliv». Det er tak, i natt. Alt vi bygger, skal måles mot det.
+- Her er behovet helt åpenbart.
+- Når man bygger et produkt så er det ikke like åpenbart.
+- Det krever en forståelse for brukeren og hva de vil oppnå.
 -->
 
 ---
@@ -70,67 +76,47 @@ Legg merke til hvor enkelt behovet er. Det er ikke «en bedre opplevelse av fril
 # Hva bygger vi?
 
 <!--
-Still spørsmålet til salen. La dem tenke. Svaret de gir — og det vi faktisk gjør — sier alt om hvordan vi tenker om produkt.
+- Det er uendelig med svar til dette spørsmålet.
+- Egentlig så vite ingen svaret 100%
+- Derfor må vi teste våre hypoteser i virkeligheten
 -->
 
 ---
 
 <!-- _class: photo -->
-![bg](images/castle.jpg)
 
-<p class="kicker">Det ene svaret</p>
+![bg](images/castle.jpg)
 
 # Slottet
 
-Vollgrav. Tårn. Ballsal.  
-Vinduer i blyglass.
+Vollgrav. Tårn. Ballsal. Vinduer i blyglass.
 
-*Ferdig om førti år.*
-
-<!--
-Det første svaret er alltid slottet. Det er imponerende, ambisiøst og lett å tegne. Det har bare én ulempe: det holder ingen tørre i natt.
--->
-
----
-
-<!-- _class: statement -->
-<p class="kicker">Behovet, igjen</p>
-
-# Ingen ba om et slott.
-
-<p class="lede">De ba om å holde seg tørre.</p>
+_Ferdig om førti år._
 
 <!--
-Dette er kjernen. Brukeren ba aldri om vollgrav, tårn eller ballsal. Vi la alt det til selv. Behovet var å holde seg tørr.
+- En mulighet
+- Tilfredstillende å teste våre ferdigheter
+- Bygge noe vakkert
+- Man er stolt å vise frem
+- Forutse ønsker og behov
 -->
 
 ---
 
 <!-- _class: photo -->
-![bg](images/gapahuk.jpg)
 
-<p class="kicker">Det andre svaret</p>
+![bg](images/gapahuk.jpg)
 
 # Gapahuken
 
-Tre stokker. Litt granbar.  
-Tak over hodet.
+Tre stokker. Litt granbar. Tak over hodet.
 
-*Ferdig før det blir mørkt.*
-
-<!--
-Det andre svaret er nesten pinlig enkelt. Tre stokker, litt granbar, litt arbeid. Og det løser faktisk behovet — i kveld.
--->
-
----
-
-<!-- _class: statement center -->
-# Den er ikke fin.
-
-<p class="punch">Den er tørr.</p>
+_Ferdig før det blir mørkt._
 
 <!--
-Gapahuken vinner ikke noen designpris. Det er ikke poenget. Den er tørr. For brukeren er det hele forskjellen.
+- Lite investering i tid og penger
+- Svarer ut brukerbehovet
+- Gir oss et forhold til brukeren
 -->
 
 ---
@@ -143,52 +129,27 @@ Gapahuken vinner ikke noen designpris. Det er ikke poenget. Den er tørr. For br
 <p class="lede">Det er en hel gapahuk — det minste som løser det virkelige behovet.</p>
 
 <!--
-Dette er definisjonen vi skal huske. MVP er ikke «en dårlig versjon av det vi egentlig vil lage». Det er en komplett, liten løsning på det virkelige behovet.
+- MVP er ikke «en dårlig versjon av det vi egentlig vil lage».
+- Det er en komplett, liten løsning på det virkelige behovet.
+- Det gjør oss i stand til å utvikle videre på en enda bedre måte
 -->
 
 ---
 
 <!-- _class: photo -->
-![bg](images/test.jpg)
 
-<p class="kicker">Testen</p>
-
-# Testen er ikke et møte.
-
-<p class="lede">Det er en natt i regnet.</p>
-
-<!--
-Vi kan diskutere gapahuken i timevis. Men svaret får vi først når noen sover ute i regnet. Ekte bruk slår alle presentasjoner.
--->
-
----
-
-<!-- _class: photo -->
 ![bg](images/wall.jpg)
 
-<p class="kicker">Iterasjon</p>
+<p class="kicker">Endringsdyktighet</p>
 
-# Vinden kommer fra siden.
+# «Vi står på myr.»
 
-<p class="lede">Så bygger du én vegg. Og sover ute igjen.</p>
-
-<!--
-Første natt avslører noe ingen møterom hadde fortalt oss: vinden kommer fra siden. Løsningen er ikke å bygge et slott. Det er én vegg.
--->
-
----
-
-<!-- _class: statement -->
-<p class="kicker">Iterasjon</p>
-
-# Du bygger ikke et slott.
-
-<p class="lede">Du bygger én vegg.</p>
-
-<p class="small">Gapahuk → vegg → hytte. Bare når behovet endrer seg.</p>
+<p class="lede">Gapahuken flyttes enkelt.<br>Slottet må rives — fundamentet og alt.</p>
 
 <!--
-Slik vokser et produkt: ett tiltak om gangen, drevet av noe vi faktisk har lært. Gapahuken blir en gapahuk med vegg. Kanskje en hytte senere — men bare hvis behovet endrer seg.
+Brukeren oppdager: grunnen er myk. Vi står på myr.
+
+Det er enkelt og kjapt for Gapahuken, det er en vond prosess når man har investert så mye i å bygge et slott
 -->
 
 ---
@@ -196,12 +157,12 @@ Slik vokser et produkt: ett tiltak om gangen, drevet av noe vi faktisk har lært
 <!-- _class: list -->
 <p class="kicker">Fordelene</p>
 
-# Derfor virker det.
+# Derfor virker det
 
-1. **Raskere.** Brukeren blir tørr i dag.
-2. **Billigere.** Du bygger bare det som trengs.
-3. **Klokere.** Virkelig regn slår ethvert møte.
-4. **Enklere.** Mindre å bygge. Mindre å vedlikeholde.
+**Raskere:** Brukeren blir tørr i dag.
+**Billigere:** Du bygger bare det som trengs.
+**Klokere:** Teste forutsetninger i virkeligheten
+**Enklere:** Mindre å bygge. Mindre å vedlikeholde. Raskere å omstille.
 
 <!--
 Fire grunner, egentlig fire sider av samme sak: du kommer raskere i gang, bruker mindre, lærer av virkeligheten og sitter igjen med noe som er lettere å holde i live.
@@ -210,6 +171,7 @@ Fire grunner, egentlig fire sider av samme sak: du kommer raskere i gang, bruker
 ---
 
 <!-- _class: photo light -->
+
 ![bg](images/castle-fog.jpg)
 
 <p class="kicker">Fellen</p>
@@ -229,12 +191,10 @@ Dette er fallet. Vi bruker årevis på noe stort og uferdig, mens brukeren forts
 
 <div class="steps">
 <div class="step"><span class="num">01</span><h3>Finn regnet.</h3><p>Behovet</p></div>
-<div class="step"><span class="num">02</span><h3>Bygg taket.</h3><p>MVP</p></div>
+<div class="step"><span class="num">02</span><h3>Bygg gapahuken.</h3><p>MVP</p></div>
 <div class="step"><span class="num">03</span><h3>Sov ute.</h3><p>Testen</p></div>
-<div class="step"><span class="num">04</span><h3>Bygg på.</h3><p>Når behovet endrer seg</p></div>
+<div class="step"><span class="num">04</span><h3>Jobbe videre.</h3><p>Når behovet endrer seg</p></div>
 </div>
-
-<p class="after">Det er hele metoden.</p>
 
 <!--
 Hvis dere bare husker én slide, er det denne. Finn det virkelige behovet. Bygg den minste løsningen som dekker det. Test den i virkeligheten. Bygg videre bare når behovet endrer seg.
@@ -243,29 +203,15 @@ Hvis dere bare husker én slide, er det denne. Finn det virkelige behovet. Bygg 
 ---
 
 <!-- _class: photo right -->
-![bg](images/fire.jpg)
 
-<p class="kicker">Til slutt</p>
+![bg](images/fire.jpg)
 
 # Bygg gapahuken først.
 
-<p class="lede"><em>Slottet kan vente.</em></p>
+<p class="lede"><em>Det blir et slott etterhvert</em></p>
 
 <!--
 Avslutt rolig. Gapahuken først. Slottet kan komme senere — hvis noen fortsatt trenger det.
--->
-
----
-
-<!-- _class: statement center question -->
-<!-- _paginate: false -->
-
-# Hva er ditt slott?
-
-<p class="end">Takk.</p>
-
-<!--
-Siste spørsmål til salen: hva bygger dere som er for stort, for tidlig? Takk for meg.
 -->
 
 ---

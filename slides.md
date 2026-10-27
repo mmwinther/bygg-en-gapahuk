@@ -219,7 +219,11 @@ Avslutt rolig. Gapahuken først. Slottet kan komme senere — hvis noen fortsatt
 <!-- _class: credits -->
 <!-- _paginate: false -->
 
-# Kilder
+### Kildekode
+
+<https://github.com/mmwinther/bygg-en-gapahuk>
+
+### Bilder
 
 <div class="credits-grid">
 <p><strong>Misty Mountains</strong><br>James Bloedel · CC0</p>
